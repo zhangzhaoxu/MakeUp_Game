@@ -1,0 +1,278 @@
+/* generator by mobi */
+/* 导入全局方法 */
+.wx-mark {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: none;
+}
+.wx-mark .mark-container {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top: 50%;
+  margin-top: -50px;
+}
+.wx-mark .wx-png {
+  width: 68px;
+  margin-left: 154px;
+}
+.wx-mark .wx-text {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.wx-mark .home-footer-mark {
+  position: fixed;
+  bottom: 0;
+}
+.my-content {
+  width: 100%;
+  height: 100%;
+  background: url("http://cdn1.showjoy.com/images/7c/7cdf5afd9012491eb09c18feef3b226f.png") #4400a1 no-repeat;
+  background-size: 100%;
+  position: absolute;
+}
+.home {
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+  position: absolute;
+  display: block;
+}
+.home .my-header {
+  height: 277px;
+}
+.home .my-header .title-img {
+  width: 350px;
+  position: absolute;
+  margin: -57px 0 0 12px;
+}
+.home .my-header .icon-1 {
+  position: absolute;
+  width: 50px;
+  margin: 40px 0 0 20px;
+}
+.home .my-header .icon-2 {
+  position: absolute;
+  width: 50px;
+  margin: 40px 0 0 310px;
+}
+.home .home-dresser {
+  width: 375px;
+  height: 317px;
+  margin-top: -20px;
+}
+.home .home-dresser .person-img {
+  width: 175px;
+  height: 205px;
+  position: absolute;
+  margin: -83px 0 0 100px;
+}
+.home .home-dresser .my-canvas {
+  position: absolute;
+  margin: -83px 0 0 100px;
+}
+.home .home-dresser .dresser-img {
+  width: 375px;
+  position: absolute;
+  margin-top: -110px;
+}
+.home .home-dresser .icon-3 {
+  position: absolute;
+  width: 50px;
+  margin: -50px 0 0 20px;
+}
+.home .home-dresser .icon-4 {
+  position: absolute;
+  width: 22px;
+  margin: -100px 0 0 325px;
+}
+.home .home-dresser .icon-5 {
+  position: absolute;
+  width: 35px;
+  margin: 10px 0 0 320px;
+}
+.home .home-dresser .button {
+  width: 300px;
+  position: absolute;
+  margin: 180px 0 0 37px;
+}
+.home .home-dresser .button .left-img {
+  width: 150px;
+  float: left;
+}
+.home .home-dresser .button .right-img {
+  width: 150px;
+  float: left;
+}
+.home .home-dresser .button .share-img {
+  width: 200px;
+  float: left;
+  margin-left: 50px;
+  display: none;
+}
+.home .home-dresser .button .upload-input {
+  height: 50px;
+  width: 150px;
+  margin: -50px 0 0 150px;
+  opacity: 0;
+  float: left;
+}
+.home .received-img {
+  padding-bottom: 20px;
+}
+.home .received-img .receive-text {
+  color: #ffffff;
+  font-size: 16px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+.home .received-img .receive-text .receive-num {
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 3px;
+}
+.home .received-img .card {
+  width: 350px;
+  height: 350px;
+  border-radius: 10px;
+  margin: 15px 0 0 12px;
+  background-color: #ffffff;
+}
+.home .received-img .card .card-header {
+  width: 330px;
+  height: 45px;
+  position: absolute;
+  margin: 10px 0 0 10px;
+}
+.home .received-img .card .card-header .touxiang {
+  width: 45px;
+  height: 45px;
+  overflow: hidden;
+  float: left;
+  border-radius: 45px;
+}
+.home .received-img .card .card-header .name {
+  float: left;
+  line-height: 45px;
+  margin-left: 5px;
+  font-size: 16px;
+  color: #000000;
+}
+.home .received-img .card .card-header .card-time {
+  float: left;
+  margin-left: 110px;
+  line-height: 45px;
+  color: #555555;
+  font-size: 13px;
+}
+.home .received-img .card .card-header .card-delete {
+  width: 25px;
+  height: 25px;
+  margin: 10px 0 0 10px;
+  float: left;
+}
+.home .received-img .card .card-body {
+  width: 273px;
+  height: 270px;
+  position: absolute;
+  margin: 70px 0 0 21px;
+}
+.home .received-img .card .card-body .card-body-person {
+  width: 179px;
+  height: 204px;
+  margin: 31px 0 0 64px;
+  position: absolute;
+}
+.home .received-img .card .card-body .card-dresser {
+  position: absolute;
+}
+.home .home-footer {
+  bottom: 0;
+  position: fixed;
+}
+.J_success {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  background-color: rgba(64, 2, 152, 0.5);
+  transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+  -ms-transform: translateY(-100px);
+      transform: translateY(-100px);
+  -webkit-transform: translateY(-100px);
+}
+.J_error {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  background-color: rgba(64, 2, 152, 0.6);
+  -webkit-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  -webkit-transition: all 1s ease;
+  -ms-transform: translateY(-100px);
+      transform: translateY(-100px);
+  -webkit-transform: translateY(-100px);
+}
+.J_second-share {
+  width: 100%;
+  height: 100px;
+  background-color: rgba(64, 2, 152, 0.5);
+  position: absolute;
+  -webkit-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  -webkit-transition: all 1s ease;
+  -ms-transform: translateY(-100px);
+      transform: translateY(-100px);
+  -webkit-transform: translateY(-100px);
+}
+.show-1 {
+  -ms-transform: translateY(0);
+      transform: translateY(0);
+  -webkit-transform: translateY(0);
+}
+.show-2 {
+  -ms-transform: translateY(-100px);
+      transform: translateY(-100px);
+  -webkit-transform: translateY(-100px);
+}
+.slide-1 {
+  width: 50px;
+  margin: 25px 0 0 110px;
+  position: absolute;
+}
+.slide-2 {
+  width: 70px;
+  margin: 40px 0 0 170px;
+  position: absolute;
+}
+.J_shareMark {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(64, 2, 152, 0.4);
+}
+.J_shareMark img {
+  float: right;
+  width: 70px;
+}
+.J_second {
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  display: none;
+  position: absolute;
+}
+.J_second .J_code {
+  position: absolute;
+  display: none;
+}
+.J_canvasImg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}

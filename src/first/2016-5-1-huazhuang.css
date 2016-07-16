@@ -1,0 +1,296 @@
+/* generator by mobi */
+/* 导入全局方法 */
+.my-content {
+  width: 100%;
+  height: 100%;
+  background: #4400a1 url("http://cdn1.showjoy.com/images/7c/7cdf5afd9012491eb09c18feef3b226f.png") no-repeat;
+  background-size: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: absolute;
+  overflow-scrolling: touch;
+  -webkit-overflow-scrolling: touch;
+}
+.my-content .home {
+  width: 100%;
+  position: absolute;
+  display: block;
+}
+.my-content .home .float-nav {
+  width: 75px;
+  height: 160px;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+}
+.my-content .home .float-nav .float-upgrade {
+  width: 70px;
+}
+.my-content .home .float-nav .go-top {
+  width: 60px;
+  margin: 25px 0 0 5px;
+}
+.my-content .home .my-header {
+  height: 277px;
+}
+.my-content .home .my-header .title-img {
+  width: 350px;
+  position: absolute;
+  margin: -57px 0 0 12px;
+}
+.my-content .home .my-header .icon-1 {
+  position: absolute;
+  width: 50px;
+  margin: 40px 0 0 20px;
+}
+.my-content .home .my-header .icon-2 {
+  position: absolute;
+  width: 50px;
+  margin: 40px 0 0 310px;
+}
+.my-content .home .home-dresser {
+  width: 375px;
+  height: 317px;
+}
+.my-content .home .home-dresser .person-img {
+  width: 175px;
+  height: 205px;
+  position: absolute;
+  margin: -83px 0 0 100px;
+}
+.my-content .home .home-dresser .dresser-img {
+  width: 375px;
+  position: absolute;
+  margin-top: -110px;
+}
+.my-content .home .home-dresser .icon-3 {
+  position: absolute;
+  width: 50px;
+  margin: -50px 0 0 20px;
+}
+.my-content .home .home-dresser .icon-4 {
+  position: absolute;
+  width: 22px;
+  margin: -100px 0 0 325px;
+}
+.my-content .home .home-dresser .icon-5 {
+  position: absolute;
+  width: 35px;
+  margin: 10px 0 0 320px;
+}
+.my-content .home .home-dresser .button {
+  width: 200px;
+  position: absolute;
+  margin: 167px 0 0 87px;
+}
+.my-content .home .add {
+  position: fixed;
+  bottom: 0;
+}
+.my-content .home .advertisement {
+  width: 375px;
+  height: 90px;
+}
+.my-content .home .advertisement .num-text {
+  width: 150px;
+}
+.my-content .home .advertisement .num-text .num-text-img {
+  margin-left: 5px;
+  margin-top: 1px;
+  width: 120px;
+}
+.my-content .home .advertisement .num-text .num {
+  font-size: 20px;
+  margin-left: 5px;
+  font-weight: bolder;
+  color: #ffffff;
+}
+.my-content .home .advertisement .num-text .want-to-play {
+  width: 375px;
+  margin-top: 4px;
+}
+.my-content .home .received-img {
+  margin-top: 100px;
+  padding-bottom: 20px;
+}
+.my-content .home .received-img .card {
+  width: 350px;
+  height: 350px;
+  border-radius: 10px;
+  margin: 15px 0 0 12px;
+  background-color: #ffffff;
+}
+.my-content .home .received-img .card .card-header {
+  width: 330px;
+  height: 45px;
+  position: absolute;
+  margin: 10px 0 0 10px;
+}
+.my-content .home .received-img .card .card-header .touxiang {
+  width: 45px;
+  height: 45px;
+  overflow: hidden;
+  float: left;
+  border-radius: 45px;
+}
+.my-content .home .received-img .card .card-header .name {
+  float: left;
+  line-height: 45px;
+  margin-left: 5px;
+  font-size: 16px;
+  color: #000000;
+}
+.my-content .home .received-img .card .card-header .card-time {
+  float: left;
+  margin-left: 110px;
+  line-height: 45px;
+  color: #555555;
+  font-size: 13px;
+}
+.my-content .home .received-img .card .card-header .card-delete {
+  width: 25px;
+  height: 25px;
+  margin: 10px 0 0 10px;
+  float: left;
+}
+.my-content .home .received-img .card .card-body {
+  width: 273px;
+  height: 270px;
+  position: absolute;
+  margin: 70px 0 0 21px;
+}
+.my-content .home .received-img .card .card-body .card-body-person {
+  width: 179px;
+  height: 204px;
+  margin: 31px 0 0 64px;
+  position: absolute;
+}
+.my-content .home .received-img .card .card-body .card-dresser {
+  position: absolute;
+}
+.my-content .home .home-footer .upgrade {
+  width: 289px;
+  margin-left: 43px;
+}
+.my-content .home .home-footer .my-showjoy {
+  margin-top: 10px;
+}
+.my-content .home-canvas {
+  position: absolute;
+}
+.my-content .makeup {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: none;
+  background: url("http://cdn1.showjoy.com/images/7c/7cdf5afd9012491eb09c18feef3b226f.png") #4400a1;
+  background-size: 100% 100%;
+}
+.my-content .makeup .dresser {
+  width: 375px;
+  height: 429px;
+  position: absolute;
+}
+.my-content .makeup .dresser .dresser-img {
+  width: 375px;
+  height: 429px;
+  margin-top: 42px;
+  position: absolute;
+}
+.my-content .makeup .dresser .float-icon-1 {
+  width: 50px;
+  margin: 20px 0 0 6px;
+  position: absolute;
+}
+.my-content .makeup .dresser .float-icon-2 {
+  width: 50px;
+  margin: 20px 0 0 305px;
+  position: absolute;
+}
+.my-content .makeup .dresser .float-icon-3 {
+  width: 50px;
+  margin: 200px 0 0 -10px;
+  position: absolute;
+}
+.my-content .makeup .dresser .float-icon-4 {
+  width: 22px;
+  margin: 200px 0 0 346px;
+  position: absolute;
+}
+.my-content .makeup .dresser .my-canvas {
+  position: absolute;
+  margin: 80px 0 0 68px;
+}
+.my-content .makeup .dresser .my-bottom-canvas {
+  position: absolute;
+  margin: 80px 0 0 68px;
+}
+.my-content .makeup .selector {
+  width: 375px;
+  height: 196px;
+  position: absolute;
+  background: url("http://cdn1.showjoy.com/images/5d/5d4c285bb2ce453abd46f1de247ab1e6.png");
+  background-size: 100% 100%;
+  padding: 37px 0 0 20px;
+}
+.my-content .makeup .selector .icon-container {
+  width: 55px;
+  height: 55px;
+  margin: 9px 0 0 9px;
+  float: left;
+}
+.my-content .makeup .selector .icon-container .icon {
+  width: 55px;
+  height: 55px;
+  position: absolute;
+}
+.my-content .makeup .selector .icon-container .icon-click {
+  width: 55px;
+  height: 55px;
+  position: absolute;
+  display: none;
+}
+.my-content .makeup .complete .complete-img {
+  width: 196px;
+  margin-left: 80px;
+}
+.my-content .loading {
+  display: none;
+}
+.my-content .loading .loading-img {
+  animation: loading 2s infinite linear;
+  -webkit-animation: loading 2s infinite linear;
+  position: fixed;
+  width: 22px;
+  left: 50%;
+  top: 50%;
+  margin: -27px 0 0 -11px;
+}
+@keyframes loading {
+  0% {
+    transform: rotate(0);
+    -webkit-transform: rotate(0);
+  }
+  50% {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes loading {
+  0% {
+    transform: rotate(0);
+    -webkit-transform: rotate(0);
+  }
+  50% {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+  }
+}

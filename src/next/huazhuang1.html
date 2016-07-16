@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+  <title>快来化妆吧~</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=375, user-scalable=no" />
+  <meta name="format-detection" content="telephone=no,email=no">
+  <meta name="apple-touch-fullscreen" content="yes">
+  <meta name="alexaVerifyID" content="CQ9MFqujDWRsB8dm3rfIrhLYva0">
+  <meta name="apple-mobile-web-app-title" content="尚妆网">
+  <link rel="apple-touch-icon" href="http://file.showjoy.com/images/5c/5c0fc2a2999a4f7789ae9fe35e47bb49.png">
+  <link rel="stylesheet" type="text/css" href="http://cdn1.showjoy.com/assets/mobile/1.0.0/css/core/reset.css">
+  <link href="http://cdn1.showjoy.com/assets/mobile/2.33.2/css/global.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="http://cdn1.showjoy.com/assets/mobile/core/gmu/1.0.0/gmu.min.css">
+  <script type="text/javascript" src="http://cdn1.showjoy.com/assets/mobile/core/gmu/1.0.0/zepto.min.js"></script>
+  <script src="http://cdn1.showjoy.com/assets/mobile/2.34.0/js/global-min.js" type="text/javascript"></script>
+  <script src="http://cdn1.showjoy.com/assets/mobile/2.34.0/js/widget/fastclick-min.js" type="text/javascript"></script>
+  <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+  <link rel="stylesheet" href="./huazhuang1.css"/>
+</head>
+
+<body>
+<div class="my-content">
+  <div id="J_home" class="home">
+    <div class="my-header">
+      <img class="title-img" src="http://cdn1.showjoy.com/images/0e/0e2ba4af96504d0cb770170eeede37a6.png">
+      <img class="icon-1" src="http://cdn1.showjoy.com/images/eb/ebb20960d51445fd8893acb5f7189577.png">
+      <img class="icon-2" src="http://cdn1.showjoy.com/images/f8/f8186f29b32d48f6ab5addc086da9d33.png">
+    </div>
+    <div class="home-dresser">
+      <img src="http://cdn1.showjoy.com/images/01/01b4eb68bd4348b7bae7ef6641b04d30.png" class="person-img">
+      <canvas id="J_canvas" class="my-canvas" width="175" height="205"></canvas>
+      <img src="http://cdn1.showjoy.com/images/51/511b835717fb469bafdd206e23681cfe.png" class="dresser-img">
+      <img src="http://cdn1.showjoy.com/images/46/460b7cb653324015ad8968eeb7e653be.png" class="icon-3">
+      <img src="http://cdn1.showjoy.com/images/23/23e5755402ec4560879b475b5398c6ba.png" class="icon-4">
+      <img src="http://cdn1.showjoy.com/images/9b/9b23f1554359404db7cefce15ce8a123.png" class="icon-5">
+      <div class="button" id="J_startButton">
+        <img id="J_leftImg" class="left-img" src="http://cdn1.showjoy.com/images/9d/9dfc9af22a564222836ea538895e8c7e.png">
+        <img id="J_rightImg" class="right-img" src="http://cdn1.showjoy.com/images/48/483f0bb9be7947ef9a8ab07f73f34b16.png">
+        <img id="J_upload" src="http://cdn1.showjoy.com/images/ec/ecf8514d3af84ac29f5dd0eed1a0e60c.png" class="share-img">
+        <input class="upload-input" id="J_uploadImg" type="file" accept="image/*">
+      </div>
+    </div>
+    <div class="received-img" style="display: none">
+      <span class="receive-text">你收到的画作:<span class="receive-num">4</span></span>
+    </div>
+    <div class="home-footer">
+      <img src="http://cdn1.showjoy.com/images/b0/b0b2cdb7db374c73b97b48f7f6b7464b.png" class="my-showjoy">
+    </div>
+  </div>
+  <div class="wx-mark" id="J_wxMark">
+    <div class="mark-container">
+      <img src="http://cdn1.showjoy.com/images/8d/8d8f04cae56e47438073a3d37b972bf3.png" class="wx-png">
+      <p class="wx-text">玩游戏,请点击使用微信登录哦~</p>
+    </div>
+    <div class="home-footer-mark">
+      <img src="http://cdn1.showjoy.com/images/b0/b0b2cdb7db374c73b97b48f7f6b7464b.png" class="my-showjoy">
+    </div>
+  </div>
+  <div class="J_shareMark">
+    <img src="http://cdn1.showjoy.com/images/de/debf7c78ba75475da848662fe18af64d.png">
+  </div>
+  <div class="J_success">
+    <img class="slide-1" src="http://cdn1.showjoy.com/images/a3/a3bfb2611c264e24ab4af6906ea6bae1.png">
+    <img class="slide-2" src="http://cdn1.showjoy.com/images/2d/2df3b3bb1f2b48f48f187154a47f6cae.png">
+  </div>
+  <div class="J_error">
+    <img class="slide-1" src="http://cdn1.showjoy.com/images/3e/3e1e37c5232d471aa77c5d8b2b65146f.png">
+    <img class="slide-2" src="http://cdn1.showjoy.com/images/0a/0a46e347ebec494b9d16abf27b82545f.png">
+  </div>
+</div>
+<div class="J_second-share"></div>
+<div class="J_second">
+  <canvas id="J_shareCanvas" width="750" style="width: 375px;position: absolute;display: block"></canvas>
+  <div class="J_code"></div>
+  <img class="J_canvasImg" src="">
+</div>
+<script id="card" type="text/html">
+  {{each CARDS}}
+  <div class="card">
+    <div class="card-header">
+      <div class="touxiang">
+        <img src="{{$value.headerImageUrl}}">
+      </div>
+      <div class="name">{{$value.name}}</div>
+      <div class="card-time">{{$value.time}}</div>
+      <div class="card-delete">
+        <img src="http://cdn1.showjoy.com/images/a0/a002ea31cfea4a87b33aefa8c7da2141.png">
+      </div>
+    </div>
+    <div class="card-body">
+      <img class="card-body-person" src="{{$value.imageUrl}}">
+      <img class="card-dresser" src="http://cdn1.showjoy.com/images/0b/0b724c941776436ebf3789fa927a544b.png">
+    </div>
+  </div>
+  {{/each}}
+</script>
+<script src="http://cdn1.showjoy.com/assets/mobile/core/gmu/1.0.0/zepto.min.js"></script>
+<script src="http://assets.showjoy.net/joyf2e/vendor/jquery/jquery.js"></script>
+<script src="//cdn.bootcss.com/jquery.qrcode/1.0/jquery.qrcode.min.js"></script>
+<script src="exif.js"></script>
+<script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+<script src="./huazhuang1.js"></script>
+</body>
+</html>

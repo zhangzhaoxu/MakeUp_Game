@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+  <title>快来化妆吧~</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=375, user-scalable=no" />
+  <meta name="format-detection" content="telephone=no,email=no">
+  <meta name="apple-touch-fullscreen" content="yes">
+  <meta name="apple-mobile-web-app-title" content="尚妆网">
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="alexaVerifyID" content="CQ9MFqujDWRsB8dm3rfIrhLYva0"/>
+  <meta name="apple-mobile-web-app-title" content="尚妆网">
+
+
+  <link rel="stylesheet" type="text/css" href="http://cdn1.showjoy.com/assets/f2e/joyf2e/vendor/0.0.2/gmu/reset.css" />
+  <link href="http://cdn1.showjoy.com/assets/f2e/showjoy-assets/common-m/0.0.4/m-header/m-header.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./2016-5-1-huazhuang.css"/>
+  <script type="text/javascript" src="http://code.showjoy.net/view/ShowJoy-Assets/trunk/mobile/src/widget/art-template.js"></script>
+</head>
+
+<body>
+<div class="my-content">
+  <div class="loading" id="J_loadingImg">
+    <img class="loading-img" src="http://cdn1.showjoy.com/images/f3/f34cf16142b44bb4a6070487f008e652.png">
+  </div>
+  <div class="home" id="J_home">
+    <div id="J_animationContainer">
+      <div class="add advertisement">
+        <div class="num-text">
+          <img class="num-text-img" src="http://cdn1.showjoy.com/images/9b/9b961fdb63b84ca09c60d7f96d8b83b0.png">
+          <scan class="num">9</scan>
+          <div class="want-to-play">
+            <img src="http://cdn1.showjoy.com/images/3a/3a0cd545cfd74faa87ae7a890e18d829.png">
+          </div>
+        </div>
+      </div>
+      <div class="my-header">
+        <img class="title-img" src="http://cdn1.showjoy.com/images/88/88ee7f36fc124c6bab25a1176c2eb8da.png">
+        <img class="icon-1" src="http://cdn1.showjoy.com/images/eb/ebb20960d51445fd8893acb5f7189577.png">
+        <img class="icon-2" src="http://cdn1.showjoy.com/images/f8/f8186f29b32d48f6ab5addc086da9d33.png">
+      </div>
+      <div class="home-dresser">
+        <input id="J_userId" type="hidden" value="123">
+        <img id="J_userImg" src="./IMG_2721.jpg" class="person-img">
+        <img src="http://cdn1.showjoy.com/images/51/511b835717fb469bafdd206e23681cfe.png" class="dresser-img">
+        <img src="http://cdn1.showjoy.com/images/46/460b7cb653324015ad8968eeb7e653be.png" class="icon-3">
+        <img src="http://cdn1.showjoy.com/images/23/23e5755402ec4560879b475b5398c6ba.png" class="icon-4">
+        <img src="http://cdn1.showjoy.com/images/9b/9b23f1554359404db7cefce15ce8a123.png" class="icon-5">
+        <div class="button" id="J_startButton">
+          <img src="http://cdn1.showjoy.com/images/34/349881160b63407ebf37942a8a607771.png">
+        </div>
+      </div>
+      <div id="J_receive" class="received-img"></div>
+      <div class="home-footer">
+        <img src="http://cdn1.showjoy.com/images/c0/c003125f8b744001a2f63450453358de.png" class="upgrade">
+        <img src="http://cdn1.showjoy.com/images/b0/b0b2cdb7db374c73b97b48f7f6b7464b.png" class="my-showjoy">
+      </div>
+      <div class="float-nav">
+        <div class="float-upgrade">
+          <img src="http://cdn1.showjoy.com/images/54/54bee53a0e6a41e595ac9387bf346bb8.png">
+        </div>
+        <div class="go-top">
+          <img src="http://cdn1.showjoy.com/images/cd/cd078c8ab73345f69355105f09eba628.png">
+        </div>
+      </div>
+    </div>
+  </div>
+  <canvas class="home-canvas" style="position: absolute" id="J_homeCanvas" width="375"></canvas>
+  <div class="makeup">
+    <div id="J_makeupAnimationContainer">
+      <div class="dresser" id="J_dresser">
+        <div>
+          <canvas id="J_bottomCanvas" class="my-bottom-canvas" width="240" height="277px"></canvas>
+        </div>
+        <div>
+          <img class="dresser-img" src="http://cdn1.showjoy.com/images/80/8078fb3a6bf84586bb19fbb4c4a273da.png">
+        </div>
+        <img src="http://cdn1.showjoy.com/images/eb/ebb20960d51445fd8893acb5f7189577.png" class="float-icon-1">
+        <img src="http://cdn1.showjoy.com/images/f8/f8186f29b32d48f6ab5addc086da9d33.png" class="float-icon-2">
+        <img src="http://cdn1.showjoy.com/images/46/460b7cb653324015ad8968eeb7e653be.png" class="float-icon-3">
+        <img src="http://cdn1.showjoy.com/images/23/23e5755402ec4560879b475b5398c6ba.png" class="float-icon-4">
+        <div>
+          <canvas id="J_canvas" class="my-canvas" width="233" height="277"></canvas>
+        </div>
+      </div>
+      <div class="selector" id="J_selector">
+      </div>
+      <div class="complete">
+        <img id="J_complete" class="complete-img" src="http://cdn1.showjoy.com/images/ba/baab84ec141d4830b52092b7cafd5ce8.png">
+      </div>
+    </div>
+  </div>
+</div>
+
+<script id="card" type="text/html">
+  {{each CARDS}}
+  <div class="card">
+    <div class="card-header">
+      <div class="touxiang">
+        <img src="{{$value.headerImageUrl}}">
+      </div>
+      <div class="name">{{$value.name}}</div>
+      <div class="card-time">{{$value.time}}</div>
+      <div class="card-delete">
+        <img src="http://cdn1.showjoy.com/images/a0/a002ea31cfea4a87b33aefa8c7da2141.png">
+      </div>
+    </div>
+    <div class="card-body">
+      <img class="card-body-person" src="{{$value.imageUrl}}">
+      <img class="card-dresser" src="http://cdn1.showjoy.com/images/0b/0b724c941776436ebf3789fa927a544b.png">
+    </div>
+  </div>
+  {{/each}}
+</script>
+<script src="http://cdn1.showjoy.com/assets/mobile/core/gmu/1.0.0/zepto.min.js"></script>
+<script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+<script src="./tweenjs-NEXT.combined.js"></script>
+<script src="./2016-5-1-huazhuang.js"></script>
+</body>
+</html>

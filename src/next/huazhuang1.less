@@ -1,0 +1,283 @@
+/* generator by mobi */
+
+/* 导入全局方法 */
+@import "../../mixins/mixins.less";
+.wx-mark {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: none;
+  .mark-container {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 50%;
+    margin-top: -50px;
+  }
+  .wx-png{
+    width: 68px;
+    margin-left: 154px;
+  }
+  .wx-text {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  .home-footer-mark {
+    position: fixed;
+    bottom: 0;
+  }
+}
+.my-content {
+  width: 100%;
+  height: 100%;
+  background: url("http://cdn1.showjoy.com/images/7c/7cdf5afd9012491eb09c18feef3b226f.png") #4400a1 no-repeat;
+  background-size: 100%;
+  position: absolute;
+}
+.home {
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+  position: absolute;
+  display: block;
+  .my-header{
+    height: 277px;
+    .title-img {
+      width: 350px;
+      position: absolute;
+      margin: -57px 0 0 12px;
+    }
+    .icon-1 {
+      position: absolute;
+      width: 50px;
+      margin: 40px 0 0 20px;
+    }
+    .icon-2 {
+      position: absolute;
+      width: 50px;
+      margin: 40px 0 0 310px;
+    }
+  }
+  .home-dresser {
+    width: 375px;
+    height: 317px;
+    margin-top: -20px;
+    .person-img {
+      width: 175px;
+      height: 205px;
+      position: absolute;
+      margin: -83px 0 0 100px;
+    }
+    .my-canvas {
+      position: absolute;
+      margin: -83px 0 0 100px;
+    }
+    .dresser-img {
+      width: 375px;
+      position: absolute;
+      margin-top: -110px;
+    }
+    .icon-3 {
+      position: absolute;
+      width: 50px;
+      margin: -50px 0 0 20px;
+    }
+    .icon-4 {
+      position: absolute;
+      width: 22px;
+      margin: -100px 0 0 325px;
+    }
+    .icon-5 {
+      position: absolute;
+      width: 35px;
+      margin: 10px 0 0 320px;
+    }
+    .button {
+      width: 300px;
+      position: absolute;
+      margin: 180px 0 0 37px;
+      .left-img {
+        width: 150px;
+        float: left;
+      }
+      .right-img {
+        width: 150px;
+        float: left;
+      }
+      .share-img {
+        width: 200px;
+        float: left;
+        margin-left: 50px;
+        display: none;
+      }
+      .upload-input {
+        height: 50px;
+        width: 150px;
+        margin: -50px 0 0 150px;
+        opacity: 0;
+        float: left;
+      }
+    }
+  }
+  .received-img {
+    padding-bottom: 20px;
+    .receive-text {
+      color: #ffffff;
+      font-size: 16px;
+      margin-left: 20px;
+      font-weight: bold;
+      .receive-num {
+        font-size: 17px;
+        font-weight: bold;
+        margin-left: 3px;
+      }
+    }
+    .card{
+      width: 350px;
+      height: 350px;
+      border-radius: 10px;
+      margin: 15px 0 0 12px;
+      background-color: #ffffff;
+      .card-header {
+        width: 330px;
+        height: 45px;
+        position: absolute;
+        margin: 10px 0 0 10px;
+        .touxiang {
+          width: 45px;
+          height: 45px;
+          overflow: hidden;
+          float:left;
+          border-radius: 45px;
+        }
+        .name {
+          float: left;
+          line-height: 45px;
+          margin-left: 5px;
+          font-size: 16px;
+          color: #000000;
+        }
+        .card-time {
+          float: left;
+          margin-left: 110px;
+          line-height: 45px;
+          color: #555555;
+          font-size: 13px;
+        }
+        .card-delete {
+          width: 25px;
+          height: 25px;
+          margin: 10px 0 0 10px;
+          float: left;
+        }
+      }
+      .card-body {
+        width: 273px;
+        height: 270px;
+        position: absolute;
+        margin: 70px 0 0 21px;
+        .card-body-person {
+          width: 179px;
+          height: 204px;
+          margin: 31px 0 0 64px;
+          position: absolute;
+        }
+        .card-dresser {
+          position: absolute;
+        }
+      }
+    }
+  }
+  .home-footer {
+    bottom: 0;
+    position: fixed;
+  }
+}
+
+.J_success {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  background-color: rgba(64,2,152,0.5);
+  transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+  transform: translateY(-100px);
+  -webkit-transform: translateY(-100px);
+}
+
+.J_error {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  background-color: rgba(64,2,152,0.6);
+  transition: all 1s ease-out;
+  -webkit-transition: all 1s ease;
+  transform: translateY(-100px);
+  -webkit-transform: translateY(-100px);
+}
+
+.J_second-share {
+  width: 100%;
+  height: 100px;
+  background-color: rgba(64,2,152,0.5);
+  position: absolute;
+  transition: all 1s ease-out;
+  -webkit-transition: all 1s ease;
+  transform: translateY(-100px);
+  -webkit-transform: translateY(-100px);
+}
+
+.show-1 {
+  transform: translateY(0);
+  -webkit-transform: translateY(0);
+}
+
+.show-2 {
+  transform: translateY(-100px);
+  -webkit-transform: translateY(-100px);
+}
+
+.slide-1 {
+  width: 50px;
+  margin: 25px 0 0 110px;
+  position: absolute;
+}
+
+.slide-2 {
+  width: 70px;
+  margin: 40px 0 0 170px;
+  position: absolute;
+}
+
+.J_shareMark {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(64,2,152,0.4);
+  img {
+    float: right;
+    width: 70px;
+  }
+}
+
+.J_second {
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  display: none;
+  position: absolute;
+  .J_code {
+    position: absolute;
+    display: none;
+  }
+}
+
+.J_canvasImg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
